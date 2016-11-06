@@ -454,7 +454,7 @@ popt3, pcov3 = curve_fit(gauss, np.arange(200, 300), data[200:300], p0=(1600, cs
 cs137_peak = Peak(popt3[1], popt3[2])
 plt.plot(data, lw=2)
 #plt.plot(x, gauss(x, popt3[0], popt3[1], popt3[2], popt3[3]))
-plt.suptitle('Fig. 13: $^{137}Cs$ spectrum', size=16)
+plt.suptitle('Fig. 14: $^{137}Cs$ spectrum', size=16)
 plt.savefig('fig14_cs137_spectrum.jpg', dpi=500)
 plt.show()
 plt.close()
